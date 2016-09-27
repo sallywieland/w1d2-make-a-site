@@ -1,0 +1,110 @@
+header {
+    vertical-align: middle;
+    color: white;
+    font-size: 40px;
+    background-color: #50858B;
+    padding: 50px 0;
+}
+header h1 {
+    margin: 0;
+}
+#section1 {
+    background: url(../img/textbook-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#section2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 50px;
+}
+#section2 > button {
+    text-align: center;
+    height: 80px;
+    font-size: 40px;
+    background: #50858B;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: all .3s ease;
+}
+#section2 > button:hover {
+    transform: scale(1);
+    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
+}
+#section3 {
+    background: #50858B;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    vertical-align: middle;
+    padding: 50px 0;
+}
+p {
+    font-size: 25px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    size: 40px;
+    transition: all .3s ease;
+}
+    a:hover {
+        transform: scale(3);
+        text-shadow: 5px 20px 50px rgba(0, 0, 0, 0.5);
+    }
+    a footer {
+        color: #50858B;
+    }
+
+footer {
+    vertical-align: middle;
+    word-spacing: 30px;
+    color: #50858B;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    float: right;
+}
+#footer-color {
+    background: #50858B;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+.purple-text {
+    color: purple
+}
+body {
+    text-align: center;
+    font-family: 'Baloo Bhai', sans-serif;
+}
+.ugly, .beautiful, button {
+    width: 250px;
+}
+.ugly {
+    background: #50858B;
+    border: 20px solid rgb(160, 221, 178);
+    border-top: 30px solid gray;
+}
+.beautiful {
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: all .3s ease;
+}
+.beautiful:hover {
+    transform: scale(2) rotate(-90deg);
+    border: 2px solid gray;
+}
+button > span {
+    font-size: 50px;
+}
